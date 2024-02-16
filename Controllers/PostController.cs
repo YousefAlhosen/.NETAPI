@@ -3,6 +3,8 @@ using DotnetAPI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
+// this class is to create a post controller
+
 namespace DotnetAPI.Controllers
 {
     [Authorize]

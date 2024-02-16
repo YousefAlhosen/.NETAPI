@@ -29,7 +29,7 @@ namespace DotnetAPI.Controllers
                     [PostCreated],
                     [PostUpdated] 
                 FROM TutorialAppSchema.Posts
-                    WHERE PostId = " + postId.ToString() + "     ";
+                    WHERE PostId = " + postId.ToString();
 
             return _dapper.LoadData<Post>(sql);
         }
